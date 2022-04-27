@@ -1,0 +1,32 @@
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .section .video-overlay {
+    mix-blend-mode: soft-light;
+    z-index: 1;position: absolute;
+   
+  }
+  
+  .video-container {
+    position: absolute;
+    
+  }
+  
+  .buttons-holder{
+    z-index: 2;
+    position: absolute;
+    bottom: 200px;
+  }
+
+  .hide{
+    display: none;
+  }
+
+ 
